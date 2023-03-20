@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392b2136fee152246aa66401aa39367a, type: 3}
+  m_Name: MilkCarton
+  m_EditorClassIdentifier: 
+  productName: MilkCarton
+  productSprite: {fileID: 21300000, guid: 528f1520816618245ba1f2399f1b1a4d, type: 3}
+  productPrefab: {fileID: 5842007559050251042, guid: 428c1c85a85022148a095114651d60b1,
+    type: 3}
+  productPrice: 2.5

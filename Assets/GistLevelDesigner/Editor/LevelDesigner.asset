@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4720966e36f36e54f993c5189140844b, type: 3}
+  m_Name: LevelDesigner
+  m_EditorClassIdentifier: 
+  managed:
+  - identity: 2
+    instanceID: 0
+    GUID: 3cef2f915d435564082fb0c1696d3765
+    fileID: 5994139911943994682
+    rootGUID: b6c20a7b777c8c8489da121259db8e02
+  - identity: 2
+    instanceID: 0
+    GUID: b6c20a7b777c8c8489da121259db8e02
+    fileID: 3533629159009580005
+    rootGUID: 8ee0477d39c72e243bf78a48f5690943
+  - identity: 2
+    instanceID: 0
+    GUID: 34e907518ca2ca34281c563245e8c903
+    fileID: 1407309603393469683
+    rootGUID: 0cd0ea11ac51ded468edd6e56a744e9c
+  - identity: 2
+    instanceID: 0
+    GUID: 34e907518ca2ca34281c563245e8c903
+    fileID: 4582160632925851125
+    rootGUID: 0cd0ea11ac51ded468edd6e56a744e9c
+  - identity: 2
+    instanceID: 0
+    GUID: 34e907518ca2ca34281c563245e8c903
+    fileID: 2984796257073542476
+    rootGUID: 0cd0ea11ac51ded468edd6e56a744e9c
+  - identity: 2
+    instanceID: 0
+    GUID: 99c9720ab356a0642a771bea13969a05
+    fileID: 2103287644
+    rootGUID: ba4a9865e1a38ae4282ac7c4241224bb
+  - identity: 2
+    instanceID: 0
+    GUID: 9b613f3abf1eb2e4f9fdcb0676f1dbf7
+    fileID: 2718452098223362596
+    rootGUID: ba4a9865e1a38ae4282ac7c4241224bb

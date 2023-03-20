@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2911610833568905436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2911610833568905437}
+  - component: {fileID: 6055759084203004875}
+  m_Layer: 0
+  m_Name: MilkCarton 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2911610833568905437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911610833568905436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2906375166297055351}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6055759084203004875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911610833568905436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d371a6a7a9a6e64a86d24317fbec496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productData: {fileID: 11400000, guid: 01b5edc3c4e31ed4cbe2749123ebe18b, type: 2}
+--- !u!1001 &2911610833779633160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2911610833568905437}
+    m_Modifications:
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842007559050251042, guid: 428c1c85a85022148a095114651d60b1,
+        type: 3}
+      propertyPath: m_Name
+      value: MilkCarton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 428c1c85a85022148a095114651d60b1, type: 3}
+--- !u!4 &2906375166297055351 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 17339782975327359, guid: 428c1c85a85022148a095114651d60b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2911610833779633160}
+  m_PrefabAsset: {fileID: 0}
