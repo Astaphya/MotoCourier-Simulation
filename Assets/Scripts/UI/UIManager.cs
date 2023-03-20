@@ -9,12 +9,11 @@ namespace UI
 {
     public class UIManager : Singleton<UIManager>
     {
-      //  public event EventHandler OnIncrementButtonPressed;
+      
 
         public event Action OnIncrementButtonPressed;
         public event Action OnDecrementButtonPressed;
 
-       // public delegate void IncrementButtonDelegate(int totalProduct);
         public bool isIncrementing;
         public bool isDecreasing;
         

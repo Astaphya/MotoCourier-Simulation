@@ -16,7 +16,6 @@ namespace MarketCart
       [SerializeField] private Transform packingBasketPosition;
       [SerializeField] private float radius;
       
-      private TestGiftBoxAnimation giftBoxScript;
       private MarketCartController marketCartController;
       
       [Header("Tween Settings")]
@@ -40,35 +39,6 @@ namespace MarketCart
         routineWaitForSeconds = new WaitForSeconds(delayTime);
       }
       
-      /*
-      private IEnumerator CircleFormationPlacement()
-      {
-         for (var i = 0; i < cartProductsList.Count; i++)
-         {
-            var angle = i * Mathf.PI * 2 / cartProductsList.Count;
-            var x = Mathf.Cos(angle) * radius;
-            var z = Mathf.Sin(angle) * radius;
-            var pos = packingBasketPosition.position + new Vector3(x, 0, z);
-            var angleDegrees = -angle*Mathf.Rad2Deg;
-            var rot = Quaternion.Euler(0, angleDegrees, 0);
-            
-            cartProductsList[i].transform.SetParentNull();
-            cartProductsList[i].transform.DOJump(pos, JumpPower, NumJumps,Duration).SetEase(Ease.OutBounce);
-            cartProductsList[i].transform.rotation = rot;
-            cartProductsList[i].transform.SetParent(packingBasketPosition,true);
-            yield return routineWaitForSeconds;
-         }
-         
-         giftBoxScript.CloseBoxAnim();
-         yield return routineWaitForSeconds;
-         giftBox.gameObject.transform.DOJump(pickupSlots[3].position,JumpPower,NumJumps, delayTime).SetEase(Ease.OutSine);
-         giftBox.gameObject.transform.SetParent(pickupSlots[3],true);
-         yield return routineWaitForSeconds;
-         marketCartController.CanMoveSetter(true);
-        // cartProductsList = null;
-        
-      }
-      */
       
       private void OnTriggerEnter(Collider other)
       {
@@ -136,8 +106,6 @@ namespace MarketCart
 
          if (isIncrementing)
          {
-            //cartProductsList.Add(shelf.MoveProductToCart(pickupSlots));
-            
             cartProductsList.Add(MoveProductToCart());
          }
          else
@@ -145,7 +113,6 @@ namespace MarketCart
             foreach (var product in cartProductsList.Where(product => product.name == shelf.productData.name))
             {
                //Move object to shelf again
-               //shelf.MoveProductToShelf(product);
                MoveProductToShelf(product);
                cartProductsList.Remove(product);
                break;
